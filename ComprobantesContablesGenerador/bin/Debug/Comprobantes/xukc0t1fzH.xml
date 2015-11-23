@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns1:Comprobante xmlns:ns1="http://creativosdigitales.co/schema/docusfera.xsd">
+  <Estado />
+  <Tipo>Nomina</Tipo>
+  <Numero>xukc0t1fzH</Numero>
+  <Fecha>09/12/2002</Fecha>
+  <Empresa>
+    <cac:Party xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2">
+      <cac:PartyName>
+        <cbc:Name xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">HILARIÓN-Abastos</cbc:Name>
+      </cac:PartyName>
+      <cac:PostalAddress>
+        <cbc:PostalZone xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">5022</cbc:PostalZone>
+        <cbc:CountrySubentity xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">Táchira</cbc:CountrySubentity>
+        <cac:AddressLine>
+          <cac:Line>Carrera 22 con Ave. Carlos Soublette #8-35</cac:Line>
+        </cac:AddressLine>
+        <cac:Country>
+          <cbc:Name xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">Venezuela</cbc:Name>
+        </cac:Country>
+      </cac:PostalAddress>
+      <cac:Contact>
+        <cbc:Name xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">Carlos Hernández</cbc:Name>
+        <cbc:Telephone xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">(5) 555-1340</cbc:Telephone>
+        <cbc:Telefax xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">(5) 555-1948</cbc:Telefax>
+        <cbc:Note xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">Representante de ventas</cbc:Note>
+      </cac:Contact>
+    </cac:Party>
+  </Empresa>
+  <Centro_de_Costos>
+    <Codigo>10</Codigo>
+    <Nombre>Producción</Nombre>
+  </Centro_de_Costos>
+  <Proyecto>
+    <Codigo>101</Codigo>
+    <Nombre>Modulación</Nombre>
+  </Proyecto>
+  <Tercero>
+    <cac:Party xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2">
+      <cac:PartyName>
+        <cbc:Name xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">Gourmet Lanchonetes</cbc:Name>
+      </cac:PartyName>
+      <cac:PostalAddress>
+        <cbc:PostalZone xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">04876-786</cbc:PostalZone>
+        <cbc:CountrySubentity xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">SP</cbc:CountrySubentity>
+        <cac:AddressLine>
+          <cac:Line>Av. Brasil, 442</cac:Line>
+        </cac:AddressLine>
+        <cac:Country>
+          <cbc:Name xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">Brasil</cbc:Name>
+        </cac:Country>
+      </cac:PostalAddress>
+      <cac:Contact>
+        <cbc:Name xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">André Fonseca</cbc:Name>
+        <cbc:Telephone xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">(11) 555-9482</cbc:Telephone>
+        <cbc:Telefax xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" />
+        <cbc:Note xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">Asistente de ventas</cbc:Note>
+      </cac:Contact>
+    </cac:Party>
+  </Tercero>
+  <Totales>
+    <Valor>100000</Valor>
+  </Totales>
+  <Contabilizacion>
+    <ns1:Asiento>
+      <Libro>COMUN</Libro>
+      <Cuenta>
+        <Codigo>510527</Codigo>
+        <Nombre>Auxilio de Transporte</Nombre>
+      </Cuenta>
+      <Concepto>
+        <Codigo>12</Codigo>
+        <Nombre>Auxilio de Transporte</Nombre>
+      </Concepto>
+      <Tercero>
+        <Codigo>876543246</Codigo>
+        <Nombre>Alberto Arenas</Nombre>
+      </Tercero>
+      <Debitos>0</Debitos>
+      <Creditos>348559653</Creditos>
+    </ns1:Asiento>
+    <ns1:Asiento>
+      <Libro>COMUN</Libro>
+      <Cuenta>
+        <Codigo>720501</Codigo>
+        <Nombre>Salario</Nombre>
+      </Cuenta>
+      <Concepto>
+        <Codigo>11</Codigo>
+        <Nombre>Salario</Nombre>
+      </Concepto>
+      <Tercero>
+        <Codigo>876543246</Codigo>
+        <Nombre>Alberto Arenas</Nombre>
+      </Tercero>
+      <Debitos>686964955</Debitos>
+      <Creditos>0</Creditos>
+    </ns1:Asiento>
+    <ns1:Asiento>
+      <Libro>COMUN</Libro>
+      <Cuenta>
+        <Codigo>110505</Codigo>
+        <Nombre>Caja General</Nombre>
+      </Cuenta>
+      <Tercero>
+        <Codigo>876543246</Codigo>
+        <Nombre>Alberto Arenas</Nombre>
+      </Tercero>
+      <Creditos>866333444</Creditos>
+      <Debitos>0</Debitos>
+    </ns1:Asiento>
+    <ns1:Asiento>
+      <Libro>COMUN</Libro>
+      <Cuenta>
+        <Codigo>237005</Codigo>
+        <Nombre>Aportes Salud</Nombre>
+      </Cuenta>
+      <Concepto>
+        <Codigo>51</Codigo>
+        <Nombre>Aportes Salud</Nombre>
+      </Concepto>
+      <Tercero>
+        <Codigo>800088702</Codigo>
+        <Nombre>EPS Sura</Nombre>
+      </Tercero>
+      <Debitos>0</Debitos>
+      <Creditos>378489820</Creditos>
+    </ns1:Asiento>
+  </Contabilizacion>
+</ns1:Comprobante>

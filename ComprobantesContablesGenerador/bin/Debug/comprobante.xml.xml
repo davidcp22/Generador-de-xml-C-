@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns1:Comprobante xmlns:ns1="http://creativosdigitales.co/schema/docusfera.xsd">
+	<Estado/>
+	<Tipo>Nomina</Tipo>
+	<Numero>00001</Numero>
+	<Fecha>15/07/2015</Fecha>
+	<Empresa>
+		<Codigo>98765654</Codigo>
+		<DV>2</DV>
+		<Nombre>Creativos Digitales S.A.S.</Nombre>
+	</Empresa>
+	<Centro_de_Costos>
+		<Codigo>10</Codigo>
+		<Nombre>Producción</Nombre>
+	</Centro_de_Costos>
+	<Proyecto>
+		<Codigo>101</Codigo>
+		<Nombre>Modulación</Nombre>
+	</Proyecto>
+	<Tercero>
+		<Codigo>876543246</Codigo>
+		<Nombre>Alberto Arenas</Nombre>
+	</Tercero>
+	<Totales>
+		<Valor>100000</Valor>
+	</Totales>
+	<Contabilizacion>
+		<ns1:Asiento>
+			<Libro>COMUN</Libro>
+			<Cuenta>
+				<Codigo>720501</Codigo>
+				<Nombre>Salario</Nombre>
+			</Cuenta>
+			<Concepto>
+				<Codigo>11</Codigo>
+				<Nombre>Salario</Nombre>
+			</Concepto>
+			<Tercero>
+				<Codigo>876543246</Codigo>
+				<Nombre>Alberto Arenas</Nombre>
+			</Tercero>
+			<Debitos>400000</Debitos>
+			<Creditos/>
+		</ns1:Asiento>
+		<ns1:Asiento>
+			<Libro>COMUN</Libro>
+			<Cuenta>
+				<Codigo>510527</Codigo>
+				<Nombre>Auxilio de Transporte</Nombre>
+			</Cuenta>
+			<Concepto>
+				<Codigo>12</Codigo>
+				<Nombre>Auxilio de Transporte</Nombre>
+			</Concepto>
+			<Tercero>
+				<Codigo>876543246</Codigo>
+				<Nombre>Alberto Arenas</Nombre>
+			</Tercero>
+			<Debitos>37000</Debitos>
+			<Creditos/>
+		</ns1:Asiento>
+		<ns1:Asiento>
+			<Libro>COMUN</Libro>
+			<Cuenta>
+				<Codigo>237005</Codigo>
+				<Nombre>Aportes Salud</Nombre>
+			</Cuenta>
+			<Concepto>
+				<Codigo>51</Codigo>
+				<Nombre>Aportes Salud</Nombre>
+			</Concepto>
+			<Tercero>
+				<Codigo>800088702</Codigo>
+				<Nombre>EPS Sura</Nombre>
+			</Tercero>
+			<Debitos/>
+			<Creditos>16000</Creditos>
+		</ns1:Asiento>
+		<ns1:Asiento>
+			<Libro>COMUN</Libro>
+			<Cuenta>
+				<Codigo>327045</Codigo>
+				<Nombre>Aportes Pensión</Nombre>
+			</Cuenta>
+			<Concepto>
+				<Codigo>52</Codigo>
+				<Nombre>Aportes Pensión</Nombre>
+			</Concepto>
+			<Tercero>
+				<Codigo>800138188</Codigo>
+				<Nombre>Protección</Nombre>
+			</Tercero>
+			<Debitos/>
+			<Creditos>16000</Creditos>
+		</ns1:Asiento>
+		
+		<ns1:Asiento>
+			<Libro>COMUN</Libro>
+			<Cuenta>
+				<Codigo>110505</Codigo>
+				<Nombre>Caja General</Nombre>
+			</Cuenta>
+			<Tercero>
+				<Codigo>876543246</Codigo>
+				<Nombre>Alberto Arenas</Nombre>
+			</Tercero>
+			<Creditos>405000</Creditos>
+			<Debitos/>
+		</ns1:Asiento>
+		
+	</Contabilizacion>
+</ns1:Comprobante>

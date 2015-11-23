@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns1:Comprobante xmlns:ns1="http://creativosdigitales.co/schema/docusfera.xsd">
+  <Estado />
+  <Tipo>Nomina</Tipo>
+  <Numero>TbvCnsahxB</Numero>
+  <Fecha>06/06/2010</Fecha>
+  <Empresa>
+    <cac:Party xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2">
+      <cac:PartyName>
+        <cbc:Name xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">Richter Supermarkt</cbc:Name>
+      </cac:PartyName>
+      <cac:PostalAddress>
+        <cbc:PostalZone xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">1203</cbc:PostalZone>
+        <cbc:CountrySubentity xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" />
+        <cac:AddressLine>
+          <cac:Line>Grenzacherweg 237</cac:Line>
+        </cac:AddressLine>
+        <cac:Country>
+          <cbc:Name xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">Suiza</cbc:Name>
+        </cac:Country>
+      </cac:PostalAddress>
+      <cac:Contact>
+        <cbc:Name xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">Michael Holz</cbc:Name>
+        <cbc:Telephone xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">0897-034214</cbc:Telephone>
+        <cbc:Telefax xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" />
+        <cbc:Note xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">Gerente de ventas</cbc:Note>
+      </cac:Contact>
+    </cac:Party>
+  </Empresa>
+  <Centro_de_Costos>
+    <Codigo>10</Codigo>
+    <Nombre>Producción</Nombre>
+  </Centro_de_Costos>
+  <Proyecto>
+    <Codigo>101</Codigo>
+    <Nombre>Modulación</Nombre>
+  </Proyecto>
+  <Tercero>
+    <cac:Party xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2">
+      <cac:PartyName>
+        <cbc:Name xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">Antonio Moreno Taquería</cbc:Name>
+      </cac:PartyName>
+      <cac:PostalAddress>
+        <cbc:PostalZone xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">05023</cbc:PostalZone>
+        <cbc:CountrySubentity xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" />
+        <cac:AddressLine>
+          <cac:Line>Mataderos  2312</cac:Line>
+        </cac:AddressLine>
+        <cac:Country>
+          <cbc:Name xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">México</cbc:Name>
+        </cac:Country>
+      </cac:PostalAddress>
+      <cac:Contact>
+        <cbc:Name xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">Antonio Moreno</cbc:Name>
+        <cbc:Telephone xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">(5) 555-3932</cbc:Telephone>
+        <cbc:Telefax xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" />
+        <cbc:Note xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">Propietario</cbc:Note>
+      </cac:Contact>
+    </cac:Party>
+  </Tercero>
+  <Totales>
+    <Valor>100000</Valor>
+  </Totales>
+  <Contabilizacion>
+    <ns1:Asiento>
+      <Libro>COMUN</Libro>
+      <Cuenta>
+        <Codigo>327045</Codigo>
+        <Nombre>Aportes Pensión</Nombre>
+      </Cuenta>
+      <Concepto>
+        <Codigo>52</Codigo>
+        <Nombre>Aportes Pensión</Nombre>
+      </Concepto>
+      <Tercero>
+        <Codigo>800138188</Codigo>
+        <Nombre>Protección</Nombre>
+      </Tercero>
+      <Debitos>0</Debitos>
+      <Creditos>1977382424</Creditos>
+    </ns1:Asiento>
+    <ns1:Asiento>
+      <Libro>COMUN</Libro>
+      <Cuenta>
+        <Codigo>237005</Codigo>
+        <Nombre>Aportes Salud</Nombre>
+      </Cuenta>
+      <Concepto>
+        <Codigo>51</Codigo>
+        <Nombre>Aportes Salud</Nombre>
+      </Concepto>
+      <Tercero>
+        <Codigo>800088702</Codigo>
+        <Nombre>EPS Sura</Nombre>
+      </Tercero>
+      <Debitos>1433830120</Debitos>
+      <Creditos>0</Creditos>
+    </ns1:Asiento>
+    <ns1:Asiento>
+      <Libro>COMUN</Libro>
+      <Cuenta>
+        <Codigo>720501</Codigo>
+        <Nombre>Salario</Nombre>
+      </Cuenta>
+      <Concepto>
+        <Codigo>11</Codigo>
+        <Nombre>Salario</Nombre>
+      </Concepto>
+      <Tercero>
+        <Codigo>876543246</Codigo>
+        <Nombre>Alberto Arenas</Nombre>
+      </Tercero>
+      <Debitos>0</Debitos>
+      <Creditos>822239606</Creditos>
+    </ns1:Asiento>
+    <ns1:Asiento>
+      <Libro>COMUN</Libro>
+      <Cuenta>
+        <Codigo>237005</Codigo>
+        <Nombre>Aportes Salud</Nombre>
+      </Cuenta>
+      <Concepto>
+        <Codigo>51</Codigo>
+        <Nombre>Aportes Salud</Nombre>
+      </Concepto>
+      <Tercero>
+        <Codigo>800088702</Codigo>
+        <Nombre>EPS Sura</Nombre>
+      </Tercero>
+      <Debitos>1433830120</Debitos>
+      <Creditos>0</Creditos>
+    </ns1:Asiento>
+    <ns1:Asiento>
+      <Libro>COMUN</Libro>
+      <Cuenta>
+        <Codigo>510527</Codigo>
+        <Nombre>Auxilio de Transporte</Nombre>
+      </Cuenta>
+      <Concepto>
+        <Codigo>12</Codigo>
+        <Nombre>Auxilio de Transporte</Nombre>
+      </Concepto>
+      <Tercero>
+        <Codigo>876543246</Codigo>
+        <Nombre>Alberto Arenas</Nombre>
+      </Tercero>
+      <Debitos>784221158</Debitos>
+      <Creditos>0</Creditos>
+    </ns1:Asiento>
+    <ns1:Asiento>
+      <Libro>COMUN</Libro>
+      <Cuenta>
+        <Codigo>327045</Codigo>
+        <Nombre>Aportes Pensión</Nombre>
+      </Cuenta>
+      <Concepto>
+        <Codigo>52</Codigo>
+        <Nombre>Aportes Pensión</Nombre>
+      </Concepto>
+      <Tercero>
+        <Codigo>800138188</Codigo>
+        <Nombre>Protección</Nombre>
+      </Tercero>
+      <Debitos>0</Debitos>
+      <Creditos>1977382424</Creditos>
+    </ns1:Asiento>
+    <ns1:Asiento>
+      <Libro>COMUN</Libro>
+      <Cuenta>
+        <Codigo>510527</Codigo>
+        <Nombre>Auxilio de Transporte</Nombre>
+      </Cuenta>
+      <Concepto>
+        <Codigo>12</Codigo>
+        <Nombre>Auxilio de Transporte</Nombre>
+      </Concepto>
+      <Tercero>
+        <Codigo>876543246</Codigo>
+        <Nombre>Alberto Arenas</Nombre>
+      </Tercero>
+      <Debitos>784221158</Debitos>
+      <Creditos>0</Creditos>
+    </ns1:Asiento>
+    <ns1:Asiento>
+      <Libro>COMUN</Libro>
+      <Cuenta>
+        <Codigo>110505</Codigo>
+        <Nombre>Caja General</Nombre>
+      </Cuenta>
+      <Tercero>
+        <Codigo>876543246</Codigo>
+        <Nombre>Alberto Arenas</Nombre>
+      </Tercero>
+      <Creditos>0</Creditos>
+      <Debitos>1992997177</Debitos>
+    </ns1:Asiento>
+  </Contabilizacion>
+</ns1:Comprobante>

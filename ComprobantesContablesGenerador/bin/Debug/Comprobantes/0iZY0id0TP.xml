@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns1:Comprobante xmlns:ns1="http://creativosdigitales.co/schema/docusfera.xsd">
+  <Estado />
+  <Tipo>Nomina</Tipo>
+  <Numero>0iZY0id0TP</Numero>
+  <Fecha>31/08/2015</Fecha>
+  <Empresa>
+    <cac:Party xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2">
+      <cac:PartyName>
+        <cbc:Name xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">Suprêmes délices</cbc:Name>
+      </cac:PartyName>
+      <cac:PostalAddress>
+        <cbc:PostalZone xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">B-6000</cbc:PostalZone>
+        <cbc:CountrySubentity xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" />
+        <cac:AddressLine>
+          <cac:Line>Boulevard Tirou, 255</cac:Line>
+        </cac:AddressLine>
+        <cac:Country>
+          <cbc:Name xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">Bélgica</cbc:Name>
+        </cac:Country>
+      </cac:PostalAddress>
+      <cac:Contact>
+        <cbc:Name xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">Pascale Cartrain</cbc:Name>
+        <cbc:Telephone xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">(071) 23 67 22 20</cbc:Telephone>
+        <cbc:Telefax xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">(071) 23 67 22 21</cbc:Telefax>
+        <cbc:Note xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">Gerente de contabilidad</cbc:Note>
+      </cac:Contact>
+    </cac:Party>
+  </Empresa>
+  <Centro_de_Costos>
+    <Codigo>10</Codigo>
+    <Nombre>Producción</Nombre>
+  </Centro_de_Costos>
+  <Proyecto>
+    <Codigo>101</Codigo>
+    <Nombre>Modulación</Nombre>
+  </Proyecto>
+  <Tercero>
+    <cac:Party xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2">
+      <cac:PartyName>
+        <cbc:Name xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">Maison Dewey</cbc:Name>
+      </cac:PartyName>
+      <cac:PostalAddress>
+        <cbc:PostalZone xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">B-1180</cbc:PostalZone>
+        <cbc:CountrySubentity xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" />
+        <cac:AddressLine>
+          <cac:Line>Rue Joseph-Bens 532</cac:Line>
+        </cac:AddressLine>
+        <cac:Country>
+          <cbc:Name xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">Bélgica</cbc:Name>
+        </cac:Country>
+      </cac:PostalAddress>
+      <cac:Contact>
+        <cbc:Name xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">Catherine Dewey</cbc:Name>
+        <cbc:Telephone xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">(02) 201 24 67</cbc:Telephone>
+        <cbc:Telefax xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">(02) 201 24 68</cbc:Telefax>
+        <cbc:Note xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">Agente de ventas</cbc:Note>
+      </cac:Contact>
+    </cac:Party>
+  </Tercero>
+  <Totales>
+    <Valor>100000</Valor>
+  </Totales>
+  <Contabilizacion>
+    <ns1:Asiento>
+      <Libro>COMUN</Libro>
+      <Cuenta>
+        <Codigo>110505</Codigo>
+        <Nombre>Caja General</Nombre>
+      </Cuenta>
+      <Tercero>
+        <Codigo>876543246</Codigo>
+        <Nombre>Alberto Arenas</Nombre>
+      </Tercero>
+      <Creditos>0</Creditos>
+      <Debitos>296844455</Debitos>
+    </ns1:Asiento>
+    <ns1:Asiento>
+      <Libro>COMUN</Libro>
+      <Cuenta>
+        <Codigo>110505</Codigo>
+        <Nombre>Caja General</Nombre>
+      </Cuenta>
+      <Tercero>
+        <Codigo>876543246</Codigo>
+        <Nombre>Alberto Arenas</Nombre>
+      </Tercero>
+      <Creditos>0</Creditos>
+      <Debitos>296844455</Debitos>
+    </ns1:Asiento>
+    <ns1:Asiento>
+      <Libro>COMUN</Libro>
+      <Cuenta>
+        <Codigo>720501</Codigo>
+        <Nombre>Salario</Nombre>
+      </Cuenta>
+      <Concepto>
+        <Codigo>11</Codigo>
+        <Nombre>Salario</Nombre>
+      </Concepto>
+      <Tercero>
+        <Codigo>876543246</Codigo>
+        <Nombre>Alberto Arenas</Nombre>
+      </Tercero>
+      <Debitos>2747604</Debitos>
+      <Creditos>0</Creditos>
+    </ns1:Asiento>
+    <ns1:Asiento>
+      <Libro>COMUN</Libro>
+      <Cuenta>
+        <Codigo>327045</Codigo>
+        <Nombre>Aportes Pensión</Nombre>
+      </Cuenta>
+      <Concepto>
+        <Codigo>52</Codigo>
+        <Nombre>Aportes Pensión</Nombre>
+      </Concepto>
+      <Tercero>
+        <Codigo>800138188</Codigo>
+        <Nombre>Protección</Nombre>
+      </Tercero>
+      <Debitos>742077678</Debitos>
+      <Creditos>0</Creditos>
+    </ns1:Asiento>
+    <ns1:Asiento>
+      <Libro>COMUN</Libro>
+      <Cuenta>
+        <Codigo>327045</Codigo>
+        <Nombre>Aportes Pensión</Nombre>
+      </Cuenta>
+      <Concepto>
+        <Codigo>52</Codigo>
+        <Nombre>Aportes Pensión</Nombre>
+      </Concepto>
+      <Tercero>
+        <Codigo>800138188</Codigo>
+        <Nombre>Protección</Nombre>
+      </Tercero>
+      <Debitos>742077678</Debitos>
+      <Creditos>0</Creditos>
+    </ns1:Asiento>
+    <ns1:Asiento>
+      <Libro>COMUN</Libro>
+      <Cuenta>
+        <Codigo>720501</Codigo>
+        <Nombre>Salario</Nombre>
+      </Cuenta>
+      <Concepto>
+        <Codigo>11</Codigo>
+        <Nombre>Salario</Nombre>
+      </Concepto>
+      <Tercero>
+        <Codigo>876543246</Codigo>
+        <Nombre>Alberto Arenas</Nombre>
+      </Tercero>
+      <Debitos>2747604</Debitos>
+      <Creditos>0</Creditos>
+    </ns1:Asiento>
+    <ns1:Asiento>
+      <Libro>COMUN</Libro>
+      <Cuenta>
+        <Codigo>720501</Codigo>
+        <Nombre>Salario</Nombre>
+      </Cuenta>
+      <Concepto>
+        <Codigo>11</Codigo>
+        <Nombre>Salario</Nombre>
+      </Concepto>
+      <Tercero>
+        <Codigo>876543246</Codigo>
+        <Nombre>Alberto Arenas</Nombre>
+      </Tercero>
+      <Debitos>2747604</Debitos>
+      <Creditos>0</Creditos>
+    </ns1:Asiento>
+  </Contabilizacion>
+</ns1:Comprobante>
